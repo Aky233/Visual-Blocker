@@ -1,0 +1,19 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Chrome extension packaging
+*.crx
+*.pem
+
+# Build tools / output
+dist/
+build/
+.env

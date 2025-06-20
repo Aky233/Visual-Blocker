@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Bloqueo</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 250px; }
+    input, button { width: 100%; margin: 5px 0; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin: 5px 0; display: flex; justify-content: space-between; }
+    .remove { color: red; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h3>Webs bloqueadas</h3>
+  <input type="text" id="urlInput" placeholder="ej. youtube.com">
+  <button id="addBtn">Añadir</button>
+  <ul id="urlList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>

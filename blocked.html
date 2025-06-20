@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>No hay nada aquí</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      color: white;
+      font-family: monospace;
+      font-size: 24px;
+    }
+    #msg {
+      position: absolute;
+      bottom: 10%;
+      left: 5%;
+    }
+    canvas {
+      display: block;
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="msg">...</div>
+  <script src="curtain.js"></script>
+  <script src="block.js"></script>
+</body>
+</html>
